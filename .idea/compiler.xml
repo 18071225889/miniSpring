@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ch.myspringmvc.com.framerwork.main" target="1.8" />
+      <module name="ch.myspringmvc.com.framerwork.test" target="1.8" />
+      <module name="ch.myspringmvc.com.miniSpring.main" target="1.8" />
+      <module name="ch.myspringmvc.com.miniSpring.test" target="1.8" />
+      <module name="ch.myspringmvc.com.test.main" target="1.8" />
+      <module name="ch.myspringmvc.com.test.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
