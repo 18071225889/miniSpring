@@ -13,13 +13,15 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    //添加兄弟模块
+    compile(project(':framerwork'))
 }
 //在gradle中，所有jar相关的操作，都需要在jar中进行注册
 jar{
     manifest {
         attributes "Main-Class":"com.myspringmvc.ch.Application"
     }
-    //循环注入依赖
+    //循环注入依赖,用于递归打入jar包
     from{
         configurations.compile.collect{
             //it 代指依赖关系，使用zipTree()函数递归导入
